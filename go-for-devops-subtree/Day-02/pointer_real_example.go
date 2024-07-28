@@ -22,12 +22,18 @@ func main() {
 		Position: "Software Developer",
 		Salary:   50000,
 	}
+	// emp := &Employee{
+	//	 Name:     "John Doe",
+	//	 Position: "Software Developer",
+	//	 Salary:   50000,
+	// }
 
 	// Printing initial state
 	fmt.Println("Before update:", emp)
 
 	// Updating salary
 	UpdateSalary(&emp, 60000)
+	// UpdateSalary(emp, 60000)
 
 	// Printing updated state
 	fmt.Println("After update:", emp)
